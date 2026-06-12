@@ -1,0 +1,22 @@
+<suite name="SauceDemo Cross Browser Suite" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.SauceDemoTest"/>
+        </classes>
+    </test>
+
+   <!--   <test name="Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.SauceDemoTest"/> 
+        </classes> 
+    </test> -->
+
+
+</suite>

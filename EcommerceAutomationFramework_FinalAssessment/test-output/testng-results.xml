@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-12T16:54:12 IST" name="Default suite" finished-at="2026-06-12T16:54:51 IST" duration-ms="38768">
+    <groups>
+    </groups>
+    <test started-at="2026-06-12T16:54:12 IST" name="Default test" finished-at="2026-06-12T16:54:51 IST" duration-ms="38768">
+      <class name="tests.SauceDemoTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:12 IST" name="setup" finished-at="2026-06-12T16:54:15 IST" duration-ms="2870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithCSV(java.lang.String,java.lang.String)[pri:1, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:15 IST" name="validLoginWithCSV" data-provider="validLoginData" finished-at="2026-06-12T16:54:16 IST" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:16 IST" name="tearDown" finished-at="2026-06-12T16:54:16 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:16 IST" name="setup" finished-at="2026-06-12T16:54:18 IST" duration-ms="1579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithCSV(java.lang.String,java.lang.String)[pri:1, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:18 IST" name="validLoginWithCSV" data-provider="validLoginData" finished-at="2026-06-12T16:54:19 IST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:19 IST" name="tearDown" finished-at="2026-06-12T16:54:19 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:19 IST" name="setup" finished-at="2026-06-12T16:54:21 IST" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithCSV(java.lang.String,java.lang.String)[pri:1, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:21 IST" name="validLoginWithCSV" data-provider="validLoginData" finished-at="2026-06-12T16:54:27 IST" duration-ms="6170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:27 IST" name="tearDown" finished-at="2026-06-12T16:54:28 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:28 IST" name="setup" finished-at="2026-06-12T16:54:30 IST" duration-ms="2212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginWithCSV(java.lang.String,java.lang.String)[pri:2, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:30 IST" name="invalidLoginWithCSV" data-provider="invalidLoginData" finished-at="2026-06-12T16:54:31 IST" duration-ms="638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginWithCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:31 IST" name="tearDown" finished-at="2026-06-12T16:54:31 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:31 IST" name="setup" finished-at="2026-06-12T16:54:33 IST" duration-ms="2024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginWithCSV(java.lang.String,java.lang.String)[pri:2, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:33 IST" name="invalidLoginWithCSV" data-provider="invalidLoginData" finished-at="2026-06-12T16:54:33 IST" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginWithCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:33 IST" name="tearDown" finished-at="2026-06-12T16:54:33 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:33 IST" name="setup" finished-at="2026-06-12T16:54:35 IST" duration-ms="1715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginWithCSV(java.lang.String,java.lang.String)[pri:2, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:35 IST" name="invalidLoginWithCSV" data-provider="invalidLoginData" finished-at="2026-06-12T16:54:36 IST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginWithCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:36 IST" name="tearDown" finished-at="2026-06-12T16:54:36 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:36 IST" name="setup" finished-at="2026-06-12T16:54:38 IST" duration-ms="2083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartTest()[pri:3, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:38 IST" name="addToCartTest" finished-at="2026-06-12T16:54:39 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:39 IST" name="tearDown" finished-at="2026-06-12T16:54:39 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:39 IST" name="setup" finished-at="2026-06-12T16:54:40 IST" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutTest()[pri:4, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:40 IST" name="checkoutTest" finished-at="2026-06-12T16:54:51 IST" duration-ms="10582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTest@3cdf2c61]" started-at="2026-06-12T16:54:51 IST" name="tearDown" finished-at="2026-06-12T16:54:51 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
