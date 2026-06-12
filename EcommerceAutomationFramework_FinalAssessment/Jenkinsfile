@@ -10,14 +10,14 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/Pankajvis1/FinalAssessment.git'
             }
         }
 
         stage('Build') {
             steps {
-                dir('') {
+                dir('EcommerceAutomationFramework_FinalAssessment') {
                     bat 'mvn clean'
                 }
             }
@@ -25,7 +25,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                dir('') {
+                dir('EcommerceAutomationFramework_FinalAssessment') {
                     bat 'mvn compile'
                 }
             }
@@ -33,7 +33,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                dir('') {
+                dir('EcommerceAutomationFramework_FinalAssessment') {
                     bat 'mvn test'
                 }
             }
@@ -41,7 +41,7 @@ pipeline {
 
         stage('Package') {
             steps {
-                dir('') {
+                dir('EcommerceAutomationFramework_FinalAssessment') {
                     bat 'mvn package'
                 }
             }
